@@ -1,1 +1,12 @@
+SALDO = float(2000)
+logica = int (input ("Deposito[1], Saque[2], Extrato[3], Sair[4]"))
 
+if logica == 1:
+    deposito = float(input("Digite o valor do deposito: "))
+    print(deposito+SALDO)
+elif logica == 2:
+    saque = float(input("Digite o valor do saque: "))
+    print(SALDO-saque)
+elif logica == 3:
+    print(SALDO)
+else: print( )
